@@ -25,8 +25,8 @@ Other data points that were provided but not specifically requested at this time
 
 We cleaned the following columns:
   
-   - Removed the decimal from the ID since it was added automatically by python
-   - Inserted zeroes in the place of null values
+   - [x] Removed the decimal from the ID since it was added automatically by python
+   - [x] Inserted zeroes in the place of null values
    - Formatted the dates without dashes
    - Updated the state's full name to abbreviation to match the UFO dataset
 

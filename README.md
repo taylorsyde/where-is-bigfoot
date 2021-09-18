@@ -27,8 +27,8 @@ We cleaned the following columns:
   
    - [x] Removed the decimal from the ID since it was added automatically by python
    - [x] Inserted zeroes in the place of null values
-   - Formatted the dates without dashes
-   - Updated the state's full name to abbreviation to match the UFO dataset
+   - [x] Formatted the dates without dashes
+   - [x] Updated the state's full name to abbreviation to match the UFO dataset
 
 ## UFO Sightings
   
@@ -40,9 +40,9 @@ Other data points that were provided but not specifically requested at this time
 
 We cleaned the following columns:
   
-   - Separated the DateTime column into two columns
-   - Formatted the date without dashes to match the Bigfoot dates (for consistency and easier analysis by our client)
-   - Reduced the dataset to sightings in the United States only per our client's request
+   - [x] Separated the DateTime column into two columns
+   - [x] Formatted the date without dashes to match the Bigfoot dates (for consistency and easier analysis by our client)
+   - [x] Reduced the dataset to sightings in the United States only per our client's request
 
 
 # The Database

@@ -13,16 +13,37 @@ The initial data points of interest are the dates, locations, and summaries of t
   
 # Data Cleanup and Analysis
   
-We used two data sources, one for UFO sightings and one for Bigfoot sightings.
+We used two data sources, one for UFO sightings and one for Bigfoot sightings (data.world).
   
-  ### UFO Sightings
+### Big Foot Sightings
   
+From data.world, Tim Renner posted data files pertaining to Bigfoot Sightings that he gathered from The Bigfoot Field Researchers Organization (BFRO), an organization    dedicated to investigating the bigfoot/sasquatch mystery. The dataset was last refreshed on 6/2/21 and covers a timeframe going back to xxx. This dataset included exactly what we needed and then some to get a dataset for the database in the short term.
+    
+We kept the following columns from the dataset: Number (ID), Date, County, State, Latitude, Longitue, Observed
   
-  ### Big Foot Sightings
+Other data points that were provided but not specifically requested at this time were the season and weather data such as precipitation, pressure, UV index, dew point, temperature, visibility, cloud coverage, humidity, and wind speed.
+
+We cleaned the following columns:
   
-From data.world, Tim Renner posted data files pertaining to Bigfoot Sightings that he gathered from The Bigfoot Field Researchers Organization (BFRO), an organization    dedicated to investigating the bigfoot/sasquatch mystery. The dataset was last refreshed on 6/2/21. This dataset included exactly what we needed and then some to get a dataset in the database in the short term.
+   - Removed the decimal from the ID since it was added automatically by python
+   - Inserted zeroes in the place of null values
+   - Formatted the dates without dashes
+   - Updated the state's full name to abbreviation to match the UFO dataset
+
+### UFO Sightings
   
-  We kept the following columns from the dataset: Number (ID), Date, County, State, Latitude, Longitue, Observed
+From xxx, xx posted UFO sighting information gathered from xxx, an organization that xxx. The dataset was last refreshed on xxx and covers a timeframe going back to xxx. 
+  
+We kept the following columns from the dataset: DateTime, City, State, Country, Latitude, Longitude, Comments
+ 
+Other data points that were provided but not specifically requested at this time include: UFO shape, duration in seconds and in hours/minutes, and date posted
+
+We cleaned the following columns:
+  
+   - Separated the DateTime column into two columns
+   - Formatted the date without dashes to match the Bigfoot dates (for consistency and easier analysis by our client)
+   - Reduced the dataset to sightings in the United States only per our client's request
+
 
 # The Database
   

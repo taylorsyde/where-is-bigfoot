@@ -9,11 +9,18 @@
   
 Our client, Mr. Henderson, is building a website for his fellow squatchers and UFO theorists to analyze reports of mysterious sightings in the U.S. He has hired our company, Cryptic Developers INC. to find some data and load it into a database that he and his team can start using. They are initially interested in Bigfoot and UFO sightings. There are talks that they may expand sightings to others to include Elvis and the like but would first like to get the website up and running.
   
-The initial data points of interest are the dates and locations of these sightings.
+The initial data points of interest are the dates, locations, and summaries of these sightings.
   
 # Data Cleanup and Analysis
   
- Our team found
+We used two data sources, one for UFO sightings and one for Bigfoot sightings.
+  
+  ## UFO Sightings
+  
+  
+  ## Big Foot Sightings
+  
+  From data.world, Tim Renner posted data files pertaining to Bigfoot Sightings that he gathered from The Bigfoot Field Researchers Organization (BFRO), an organization    dedicated to investigating the bigfoot/sasquatch mystery.
 
 # The Final Database
   

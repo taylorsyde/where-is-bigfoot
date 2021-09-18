@@ -20,7 +20,7 @@ We used two data sources, one for UFO sightings and one for Bigfoot sightings.
   
   ### Big Foot Sightings
   
-  From data.world, Tim Renner posted data files pertaining to Bigfoot Sightings that he gathered from The Bigfoot Field Researchers Organization (BFRO), an organization    dedicated to investigating the bigfoot/sasquatch mystery.
+From data.world, Tim Renner posted data files pertaining to Bigfoot Sightings that he gathered from The Bigfoot Field Researchers Organization (BFRO), an organization    dedicated to investigating the bigfoot/sasquatch mystery. The dataset was last refreshed on 6/2/21. This dataset included exactly what we needed and then some to get a dataset in the database in the short term.
 
 # The Database
   

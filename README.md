@@ -15,7 +15,7 @@ The initial data points of interest are the dates, locations, and summaries of t
   
 We used two data sources, one for UFO sightings and one for Bigfoot sightings (data.world).
   
-### Bigfoot Sightings
+## Bigfoot Sightings
   
 From data.world, Tim Renner posted data files pertaining to Bigfoot Sightings that he gathered from The Bigfoot Field Researchers Organization (BFRO), an organization    dedicated to investigating the bigfoot/sasquatch mystery. The dataset was last refreshed on 6/2/21 and covers a timeframe going back to xxx. This dataset included exactly what we needed and then some to get a dataset for the database in the short term.
     
@@ -30,7 +30,7 @@ We cleaned the following columns:
    - Formatted the dates without dashes
    - Updated the state's full name to abbreviation to match the UFO dataset
 
-### UFO Sightings
+## UFO Sightings
   
 From xxx, xx posted UFO sighting information gathered from xxx, an organization that xxx. The dataset was last refreshed on xxx and covers a timeframe going back to xxx. 
   

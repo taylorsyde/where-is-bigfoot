@@ -9,7 +9,7 @@
   
 Our client, Mr. Henderson, is building a website for his fellow squatchers and UFO theorists to analyze reports of mysterious sightings in the U.S. He has hired our company, <b>Cryptic Developers INC.</b> to find some data and load it into a database that he and his team can start using. They are initially interested in Bigfoot and UFO sightings. There are talks that they may expand sightings to others to include werewolves and the like but would first like to get the website up and running.
   
-The initial data points of interest are the dates, locations, and summaries of these sightings.
+The initial data points of interest are the <b>dates, locations, and summaries of these sightings</b>.
   
 # Data Cleanup and Analysis
   

@@ -15,10 +15,10 @@ The initial data points of interest are the dates, locations, and summaries of t
   
 We used two data sources, one for UFO sightings and one for Bigfoot sightings.
   
-  ## UFO Sightings
+  ### UFO Sightings
   
   
-  ## Big Foot Sightings
+  ### Big Foot Sightings
   
   From data.world, Tim Renner posted data files pertaining to Bigfoot Sightings that he gathered from The Bigfoot Field Researchers Organization (BFRO), an organization    dedicated to investigating the bigfoot/sasquatch mystery.
 

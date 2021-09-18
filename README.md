@@ -6,7 +6,11 @@
 </p>
 
 # Case Study
-
+  
+Our client, Mr. Henderson, is building a website for his fellow squatchers and UFO theorists to monitor and analyze reports of mysterious sightings in the U.S. He has hired our company, Cryptic Developers INC. to find the data and load it into a database that he and his team can use. They are initially interested in Bigfoot and UFO sightings. There are talks that they may expand sightings to others to include Elvis and the like but would first like to get the website up and running.
+  
+The initial data points of interest are the dates and locations of these sightings.
+  
 # Data Cleanup and Analysis
 
 # The Final Database

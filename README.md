@@ -47,7 +47,7 @@ We cleaned the following columns:
 
 # The Database
 
-  At the client's request, our data was loaded into a SQL database. 
+  At the client's request, our data was loaded into a SQL database. We used postgres to accomplish this task.
   
   ## ERD
   

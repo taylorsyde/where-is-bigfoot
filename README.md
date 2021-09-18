@@ -50,7 +50,7 @@ We cleaned the following columns:
   
 # Our Team
   
-Our talented group of developers include:
+Our talented group of developers:
   
   - Celenia Chapa
   - Tyler Cutrer

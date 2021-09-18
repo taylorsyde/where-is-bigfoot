@@ -56,14 +56,18 @@ We cleaned the following columns:
   
 # Our Team
   
+<img src="https://user-images.githubusercontent.com/82002107/133907178-73250178-1465-426a-8d5f-9ccf9c62f0f1.png" align="left" width="200px"/>
 Our talented group of developers:
   
   - Celenia Chapa
   - Tyler Cutrer
   - Taylor Lyons
   - Samantha Perez
+
+<br clear="left"/>
   
-  ![image](https://user-images.githubusercontent.com/82002107/133907178-73250178-1465-426a-8d5f-9ccf9c62f0f1.png)
+  
+ 
 
 
   

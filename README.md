@@ -46,6 +46,12 @@ We cleaned the following columns:
 
 
 # The Database
+
+  At the client's request, our data was loaded into a SQL database. 
+  
+  ## ERD
+  
+  [image of ERD]
   
   
 # Our Team

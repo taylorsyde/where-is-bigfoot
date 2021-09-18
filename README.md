@@ -58,10 +58,10 @@ We cleaned the following columns:
   
 <img src="https://user-images.githubusercontent.com/82002107/133907178-73250178-1465-426a-8d5f-9ccf9c62f0f1.png" align="left" width="200px" padding="10px">Our talented group of developers:
   
-  - Celenia Chapa
-  - Tyler Cutrer
-  - Taylor Lyons
-  - Samantha Perez
+&emsp;  - Celenia Chapa
+&emsp;  - Tyler Cutrer
+&emsp;  - Taylor Lyons
+&emsp;  - Samantha Perez
 
 <br clear="left"/>
   

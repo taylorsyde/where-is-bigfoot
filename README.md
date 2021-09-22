@@ -1,8 +1,8 @@
 # Mysterious Sightings
 
   <p float="center">
-  <img src="https://user-images.githubusercontent.com/82002107/133905938-3165e93a-8ec9-4274-8990-7fc0411c6c7c.png" alt="Where's Bigfoot?" width="450" height="350">
-  <img src="https://user-images.githubusercontent.com/82002107/133905796-7797e10a-851f-40f0-bb3c-4f0c69ab3e67.png" alt="UFO" width="450" height="350"
+  <img src="https://user-images.githubusercontent.com/82002107/133905938-3165e93a-8ec9-4274-8990-7fc0411c6c7c.png" alt="Where's Bigfoot?" width="400" height="300">
+  <img src="https://user-images.githubusercontent.com/82002107/133905796-7797e10a-851f-40f0-bb3c-4f0c69ab3e67.png" alt="UFO" width="400" height="300"
 </p>
 
 # Case Study
@@ -49,10 +49,13 @@ We cleaned the following columns:
 
   At the client's request, our data was loaded into a SQL database. We used postgres to accomplish this task.
   
+  1. We used http://www.quickdatabasediagrams.com/ to create our ERD which created our schema.sql.
+  2. We created the database in PGAdmin and imported the schema.sql to create our two tables.
+  2. Then, we added onto our Jupyter Notebook to connect to our postgres database and used the pandas "to-sql" function to load each dataframe into postgres as tables.
+  
   ## ERD
   
-  [image of ERD]
-  
+https://files.slack.com/files-pri/T024E16FTEX-F02FLAY4T2M/quickdbd-cryptid_db.png
   
 # Our Team
   

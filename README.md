@@ -65,7 +65,7 @@ https://files.slack.com/files-pri/T024E16FTEX-F02FLAY4T2M/quickdbd-cryptid_db.pn
   
 # Our Team
   
-<img src="https://user-images.githubusercontent.com/82002107/133907178-73250178-1465-426a-8d5f-9ccf9c62f0f1.png" align="left" width="200px" padding="10px">Our talented group of developers at Cryptic Developers INC. </br></br>
+<img src="https://user-images.githubusercontent.com/82002107/133907178-73250178-1465-426a-8d5f-9ccf9c62f0f1.png" align="left" width="200px" padding="10px">Our talented group of developers at <b>Cryptic Developers INC.</b> </br></br>
   <b>
 &emsp;  - Celenia Chapa
 &emsp;  - Tyler Cutrer

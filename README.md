@@ -30,7 +30,7 @@ We read the csv file into Jupyter Notebook and cleaned the following columns:
    - [x] Inserted zeroes in the place of NaN values for the date, latitude, and longitude columns
    - [x] Transformed the date column from a string to date
    - [x] Filtered out rows where dates were entered in the latitude column so that we could transform it into a float
-   - [x] Updated the state's full name to abbreviation to match the UFO dataset
+   - [x] Updated the state's full name to abbreviation to match the UFO dataset</br>
             - To accomplish this task, we downloaded a CSV of state names and abbreviations; read the CSV file into Jupyter Notebook and merged in the abbreviation using the state name. Then we dropped the state's full name and kept only the abbreviation.
   
  Data sources: https://data.world/timothyrenner/bfro-sightings-data , https://worldpopulationreview.com/states/state-abbreviations

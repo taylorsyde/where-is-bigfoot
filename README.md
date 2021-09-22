@@ -1,4 +1,4 @@
-<h1 align="center"># Mysterious Sightings</h1>
+<h1 align="center">Mysterious Sightings</h1>
 
   <p float="center">
   <img src="https://user-images.githubusercontent.com/82002107/133905938-3165e93a-8ec9-4274-8990-7fc0411c6c7c.png" alt="Where's Bigfoot?" width="400" height="300">

@@ -1,17 +1,17 @@
-<h1 align="center" style="font-size:500px">Mysterious Sightings</h1>
+<h1 align="center">Mysterious Sightings</h1>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/82002107/133905938-3165e93a-8ec9-4274-8990-7fc0411c6c7c.png" alt="Where's Bigfoot?" width="400" height="300">
   <img src="https://user-images.githubusercontent.com/82002107/133905796-7797e10a-851f-40f0-bb3c-4f0c69ab3e67.png" alt="UFO" width="400" height="300"
 </p>
 
-# Case Study - Database for Bigfoot and UFO Sightings
+<h1 align="center">Case Study - Database for Bigfoot and UFO Sightings</h1>
   
 Our client, Mr. Henderson, is building a website for his fellow squatchers and UFO theorists to analyze reports of mysterious sightings in the U.S. He has hired our company, <b>Cryptic Developers INC.</b> to find some data and load it into a database that he and his team can start using. They are initially interested in Bigfoot and UFO sightings. There are talks that they may expand sightings to others to include werewolves and the like but would first like to get the website up and running.
   
 The initial data points of interest are the <b>dates, locations, and summaries of these sightings</b>.
   
-# Data Cleanup and Analysis
+<h1 align="center">Data Cleanup and Analysis</h1>
   
 We used two data sources, one for UFO sightings and one for Bigfoot sightings.
   
@@ -51,7 +51,7 @@ We read the csv file into Jupyter Notebook and cleaned the following columns:
 
 Data source: https://www.kaggle.com/NUFORC/ufo-sightings
   
-# The Database
+<h1 align="center">The Database</h1>
 
   At our client's request, our data was loaded into a postgres database. 
   
@@ -63,7 +63,7 @@ Data source: https://www.kaggle.com/NUFORC/ufo-sightings
   
 ![image](https://user-images.githubusercontent.com/82002107/134277955-915d619f-730d-44ab-a60d-cf23305b4a2b.png)
   
-# Our Team
+<h1 align="center">Our Team</h1>
   
 <img src="https://user-images.githubusercontent.com/82002107/133907178-73250178-1465-426a-8d5f-9ccf9c62f0f1.png" align="left" width="200px" padding="10px">Our talented group of developers at <b>Cryptic Developers INC.</b> </br></br>
   <b>

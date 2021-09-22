@@ -13,7 +13,7 @@ The initial data points of interest are the <b>dates, locations, and summaries o
   
 # Data Cleanup and Analysis
   
-We used two data sources, one for UFO sightings and one for Bigfoot sightings (data.world).
+We used two data sources, one for UFO sightings and one for Bigfoot sightings.
   
 ## Bigfoot Sightings (data.world)
   

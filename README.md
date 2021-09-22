@@ -17,41 +17,47 @@ We used two data sources, one for UFO sightings and one for Bigfoot sightings (d
   
 ## Bigfoot Sightings (data.world)
   
-From data.world, Tim Renner posted data files pertaining to Bigfoot Sightings that he gathered from The Bigfoot Field Researchers Organization (BFRO), an organization    dedicated to investigating the bigfoot/sasquatch mystery. The dataset was last refreshed on 6/2/21 and covers a timeframe going back to xxx. This dataset included exactly what we needed and then some to get a dataset for the database in the short term.
+From data.world, Tim Renner posted data files pertaining to Bigfoot Sightings that he gathered from The Bigfoot Field Researchers Organization (BFRO), an organization    dedicated to investigating the bigfoot/sasquatch mystery. 
+
+The dataset was downloaded into a CSV.  It was last refreshed on 6/2/21 and covers a timeframe going back to 1921 with nearly 5,000 rows. This dataset included exactly what we needed and then some to get a dataset for the database in the short term.
     
 We kept the following columns from the dataset: Number (ID), Date, County, State, Latitude, Longitue, Observed
   
-Other data points that were provided but not specifically requested at this time were the season and weather data such as precipitation, pressure, UV index, dew point, temperature, visibility, cloud coverage, humidity, and wind speed.
+Other data points that were provided but not specifically requested at this time were: season and weather data such as precipitation, pressure, UV index, dew point, temperature, visibility, cloud coverage, humidity, and wind speed.
 
-We cleaned the following columns:
+We read the csv file into Jupyter Notebook and cleaned the following columns:
   
-   - [x] Removed the decimal from the ID since it was added automatically by python
-   - [x] Inserted zeroes in the place of null values
-   - [x] Formatted the dates without dashes
+   - [x] Inserted zeroes in the place of NaN values for the date, latitude, and longitude columns
+   - [x] Transformed the date column from a string to date
+   - [x] Filtered out rows where dates were entered in the latitude column so that we could transform it into a float
    - [x] Updated the state's full name to abbreviation to match the UFO dataset
+            - To accomplish this task, we downloaded a CSV of state names and abbreviations; read the CSV file into Jupyter Notebook and merged in the abbreviation using the state name. Then we dropped the state's full name and kept only the abbreviation.
+  
+ Data sources: https://data.world/timothyrenner/bfro-sightings-data , https://worldpopulationreview.com/states/state-abbreviations
 
 ## UFO Sightings
   
-From xxx, xx posted UFO sighting information gathered from xxx, an organization that xxx. The dataset was last refreshed on xxx and covers a timeframe going back to xxx. 
+From Kaggle, UFO sighting was gathered from the National UFO Reporting Center (NUFORC) and we were able to download it to a CSV. The dataset was last refreshed in 2014 and covers a timeframe going back to the 1940's with 88,000 rows. 
   
 We kept the following columns from the dataset: DateTime, City, State, Country, Latitude, Longitude, Comments
  
-Other data points that were provided but not specifically requested at this time include: UFO shape, duration in seconds and in hours/minutes, and date posted
+Other data points that were provided but not specifically requested at this time include: UFO shape, duration in seconds and in hours/minutes, and date posted.
 
-We cleaned the following columns:
+We read the csv file into Jupyter Notebook and cleaned the following columns:
   
-   - [x] Separated the DateTime column into two columns
-   - [x] Formatted the date without dashes to match the Bigfoot dates (for consistency and easier analysis by our client)
+   - [x] Reformatted the datetime column to include only the date and transformed it from a string to a date
+   - [x] Reformatted the state abbreviation column to capital letters to match the bigfoot data
    - [x] Reduced the dataset to sightings in the United States only per our client's request
 
-
+Data source: https://www.kaggle.com/NUFORC/ufo-sightings
+  
 # The Database
 
-  At the client's request, our data was loaded into a SQL database. We used postgres to accomplish this task.
+  At our client's request, our data was loaded into a postgres database. 
   
-  1. We used http://www.quickdatabasediagrams.com/ to create our ERD which created our schema.sql.
+  1. We used http://www.quickdatabasediagrams.com/ to create the ERD which created our schema.sql.
   2. We created the database in PGAdmin and imported the schema.sql to create our two tables.
-  2. Then, we added onto our Jupyter Notebook to connect to our postgres database and used the pandas "to-sql" function to load each dataframe into postgres as tables.
+  2. Then, we added code onto our Jupyter Notebook to connect to our postgres database and used the pandas "to-sql" function to load each dataframe into postgres as tables.
   
   ## ERD
   

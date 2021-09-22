@@ -35,9 +35,9 @@ We read the csv file into Jupyter Notebook and cleaned the following columns:
   
  Data sources: https://data.world/timothyrenner/bfro-sightings-data , https://worldpopulationreview.com/states/state-abbreviations
 
-## UFO Sightings
+## UFO Sightings (Kaggle)
   
-From Kaggle, UFO sighting was gathered from the National UFO Reporting Center (NUFORC) and we were able to download it to a CSV. The dataset was last refreshed in 2014 and covers a timeframe going back to the 1940's with 88,000 rows. 
+From Kaggle, UFO sightings were gathered from the National UFO Reporting Center (NUFORC) and we were able to download it to a CSV. The dataset was last refreshed in 2014 and covers a timeframe going back to the 1940's with 88,000 rows. 
   
 We kept the following columns from the dataset: DateTime, City, State, Country, Latitude, Longitude, Comments
  

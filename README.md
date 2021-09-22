@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/82002107/133905938-3165e93a-8ec9-4274-8990-7fc0411c6c7c.png" alt="Where's Bigfoot?" width="400" height="300">
-  <img src="https://user-images.githubusercontent.com/82002107/133905796-7797e10a-851f-40f0-bb3c-4f0c69ab3e67.png" alt="UFO" width="400" height="300"
+  <img src="https://user-images.githubusercontent.com/82002107/133905796-7797e10a-851f-40f0-bb3c-4f0c69ab3e67.png" alt="UFO" width="400" height="300">
 </p>
 
 <h1 align="center">Case Study - Database for Bigfoot and UFO Sightings</h1>
@@ -62,7 +62,7 @@ Data source: https://www.kaggle.com/NUFORC/ufo-sightings
   ## ERD
   
 <p align="center">
-  ![ERD screenshot](https://user-images.githubusercontent.com/82002107/134278895-27dbf2c9-87bb-494f-a080-a532b4081dc3.jpg)
+  <img src=https://user-images.githubusercontent.com/82002107/134278895-27dbf2c9-87bb-494f-a080-a532b4081dc3.jpg" alt="ERD" >
  </p>
   
 <h1 align="center">Our Team</h1>

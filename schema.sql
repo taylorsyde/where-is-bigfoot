@@ -6,11 +6,12 @@
 -- To reset the sample schema, replace everything with
 -- two dots ('..' - without quotes).
 
+
 CREATE TABLE "Bigfoot_Sighting" (
     "number" float   NOT NULL,
-    "date" varchar   NOT NULL,
+    "date" date  NOT NULL,
     "county" varchar   NOT NULL,
-    "state" string   NOT NULL,
+    "state" varchar   NOT NULL,
     "latitude" float   NOT NULL,
     "longitude" float   NOT NULL,
     "observed" varchar   NOT NULL,
@@ -19,17 +20,21 @@ CREATE TABLE "Bigfoot_Sighting" (
      )
 );
 
--- 'datetime', 'city', 'state', 'country', 'latitude', 'longitude', 'comments'
+DROP TABLE "UFO_Sighting";
+
 CREATE TABLE "UFO_Sighting" (
     "ID" serial   NOT NULL,
-    "datetime" string   NOT NULL,
-    "state" string   NOT NULL,
-    "country" string   NOT NULL,
-    "latitude" float   NOT NULL,
-    "longitude" float   NOT NULL,
-    "comments" varchar   NOT NULL,
+    "date" date,
+	"city" varchar,
+    "state" varchar,
+    "country" varchar,
+    "latitude" float,
+    "longitude" float,
+    "comments" varchar,
     CONSTRAINT "pk_UFO_Sighting" PRIMARY KEY (
         "ID"
      )
 );
 
+
+Select 

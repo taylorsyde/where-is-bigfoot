@@ -59,7 +59,7 @@ Data source: https://www.kaggle.com/NUFORC/ufo-sightings
   2. We created the database in PGAdmin and imported the schema.sql to create our two tables.
   2. Then, we added code onto our Jupyter Notebook to connect to our postgres database and used the pandas "to-sql" function to load each dataframe into postgres as tables.
   
-  ## ERD
+<h2 align="center">ERD</h2>
   
 <p align="center">
   <img src="https://user-images.githubusercontent.com/82002107/134278895-27dbf2c9-87bb-494f-a080-a532b4081dc3.jpg" alt="ERD" >

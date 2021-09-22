@@ -61,7 +61,9 @@ Data source: https://www.kaggle.com/NUFORC/ufo-sightings
   
   ## ERD
   
-![image](https://user-images.githubusercontent.com/82002107/134277955-915d619f-730d-44ab-a60d-cf23305b4a2b.png)
+<p align="center">
+  ![image](https://user-images.githubusercontent.com/82002107/134277955-915d619f-730d-44ab-a60d-cf23305b4a2b.png)
+ </p>
   
 <h1 align="center">Our Team</h1>
   
